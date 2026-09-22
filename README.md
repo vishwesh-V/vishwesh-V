@@ -1,15 +1,45 @@
-# 💫 About Me:
-🔭 I’m currently working on a website<br>🤝 I’m looking for help with finding internships/ job opportunities<br>🌱 I’m currently learning jQuery, React, JavaScript, REST<br><br><br><br>
+## Vishwesh Venkatramani
 
+Master in Financial Mathematics at MIT, finishing February 2027. I work on machine learning applied
+to asset pricing, with a bias toward finding out where published results stop holding.
 
-# 💻 Tech Stack:
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Yarn](https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Proto.io](https://img.shields.io/badge/Proto.io-161637?style=for-the-badge&logo=proto.io&logoColor=00e5ff) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=vishwesh-V&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=vishwesh-V&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=vishwesh-V&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+Previously BSc Software Engineering at RIT (valedictorian, 1/250), and software engineering at
+Paychex and DataTech before graduate school.
+
+**Now:** independent research with Prof. Leonid Kogan on machine-learning return prediction.
+**Recruiting:** full-time quantitative research roles, available from February 2027.
 
 ---
-[![](https://visitcount.itsvg.in/api?id=vishwesh-V&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+### Selected work
+
+**[virtue-of-complexity](https://github.com/vishwesh-V/virtue-of-complexity)** — replication and
+stress-testing of the "virtue of complexity" in return prediction (Kelly, Malamud & Zhou 2024).
+
+Random Fourier features of the 15 Goyal–Welch predictors, ridge regression across the full
+complexity spectrum, 1926–2025. Reproduces the paper's central paradox: the timing strategy's Sharpe
+ratio rises as the model becomes massively overparameterized while out-of-sample R² stays negative.
+
+The critiques are implemented as counter-specifications rather than argued in prose. Buncic (2025) so
+far: restoring an unpenalized intercept lifts Sharpe everywhere while worsening R², and reporting
+per-draw rather than averaged Sharpe exposes dispersion spanning −0.08 to +0.23 at low complexity
+that narrows as complexity grows. Both objections bite hardest where the headline result does not
+live. Nagel (2025) and Cartea, Jin & Shi (2025) next, then a research note adjudicating the debate.
+
+**Prediction-market microstructure** — large-move detection over the full Kalshi tick history: 72M
+trade executions across 7.6M contracts, aggregated to per-ticker one-minute bars with strictly causal
+features, then a 1D CNN per forward horizon under a leakage-safe protocol. The useful result was
+negative: saliency and ablation showed the network had learned a price-level heuristic rather than
+temporal structure, and that flat quotes in illiquid contracts were inflating AUC. Team project,
+Harvard CS1090B.
+
+---
+
+### Tools
+
+Python (pandas, NumPy, scikit-learn, PyTorch) · SQL · R · CRSP, Bloomberg, Fama–French and
+Goyal–Welch data · Parquet · Git · LaTeX
+
+---
+
+[vv29@mit.edu](mailto:vv29@mit.edu) · [LinkedIn](https://linkedin.com/in/vishwesh-venkatramani)

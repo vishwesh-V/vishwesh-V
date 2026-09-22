@@ -26,7 +26,7 @@ per-draw rather than averaged Sharpe exposes dispersion spanning −0.08 to +0.2
 that narrows as complexity grows. Both objections bite hardest where the headline result does not
 live. Nagel (2025) and Cartea, Jin & Shi (2025) next, then a research note adjudicating the debate.
 
-**Prediction-market microstructure** — large-move detection over the full Kalshi tick history: 72M
+**[Prediction-market microstructure](https://github.com/vishwesh-V/Kalshi-Project)** — large-move detection over the full Kalshi tick history: 72M
 trade executions across 7.6M contracts, aggregated to per-ticker one-minute bars with strictly causal
 features, then a 1D CNN per forward horizon under a leakage-safe protocol. The useful result was
 negative: saliency and ablation showed the network had learned a price-level heuristic rather than
